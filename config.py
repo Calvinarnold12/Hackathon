@@ -16,6 +16,7 @@ MIN_CONFIDENCE = 0.5  # Minimum confidence score for answers
 
 # Questions and their corresponding keys for extraction
 QUESTIONS = [
+    ("You will be fed concatenated text taken from PDF lease documents, Your task is to, with a high confidence interval, Search the provided text for the following parameters posed by questions.", "Contextual Explination"),
     ("Who is the tenant signing the lease agreement?", "Tenant Name"),
     ("What is the duration of the lease?", "Lease Duration"),
     ("What is the monthly rent amount?", "Rent Amount"),
